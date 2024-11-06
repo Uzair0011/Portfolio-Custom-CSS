@@ -1,0 +1,44 @@
+.lastFooter {
+  width: 100%;
+  height: 50px;
+  background-color: black;
+}
+
+.line {
+  width: 100%;
+  height: 2px;
+  background-color: white;
+}
+
+.line1 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 0px 20px;
+}
+.textCopyReseved {
+  font-size: 20px;
+  color: white;
+}
+
+.logoFooterAll1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 767px) {
+  .lastFooter {
+    /* width: 100%; */
+    height: auto;
+    /* background-color: black; */
+  }
+  .line1{
+    flex-direction: column;
+    padding: 10px;
+  }
+  .textCopyReseved{
+    text-align: center;
+  }
+}
