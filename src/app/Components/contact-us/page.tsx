@@ -46,6 +46,8 @@ export default function Contact() {
               required
             ></textarea>
           </fieldset>
+        
+          <button className="formSubmitButton" type="submit">Submit</button>
         </form>
       </div>
     </div>
